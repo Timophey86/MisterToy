@@ -1,0 +1,45 @@
+@import "./app-header/app-header.css";
+@import "./cmps/toy-preview.css";
+@import "./cmps/toy-list.css";
+@import "./pages/toy-details.css";
+@import "./cmps/pop-up.css";
+
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+form.filter{
+    margin:15px 0px;
+}
+
+.filter-sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit{
+    margin: 15px 0;
+}
+
+.home h2{
+    text-align: center;
+}
+
+.welcome {
+    padding-left: 6px;
+}
+
+.chat-icon {
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.main-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
