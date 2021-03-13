@@ -1,43 +1,56 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import toyApp from '../views/toy-app.cmp.vue'
-import toyEdit from "../views/toy-edit.cmp.vue"
-import toyDetails from "../views/toy-details.cmp.vue"
-import userPage from "../views/user-page.cmp.vue"
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../views/Home.vue";
+import toyApp from "../views/toy-app.cmp.vue";
+import toyEdit from "../views/toy-edit.cmp.vue";
+import toyDetails from "../views/toy-details.cmp.vue";
+import userPage from "../views/user-page.cmp.vue";
+import logInPage from "../views/login-page.cmp.vue"
+import signUpPage from "../views/sign-up.cmp.vue"
 
-Vue.use(VueRouter)
+
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
+    path: "/",
+    name: "Home",
+    component: Home,
   },
   {
-    path: '/app',
-    name: 'Toy-App',
-    component: toyApp
+    path: "/user",
+    name: "user-page",
+    component: userPage,
   },
   {
-    path: '/user',
-    name: 'user-page',
-    component: userPage
+    path: "/login",
+    name: "Login",
+    component: logInPage,
   },
   {
-    path: '/toy/details/:toyId',
-    component: toyDetails
-},
+    path: "/signup",
+    name: "SignUp",
+    component: signUpPage,
+  },
   {
-    path: '/toy/edit/:toyId?',
-    component: toyEdit
-}
-]
+    path: "/app",
+    name: "Toy-App",
+    component: toyApp,
+  },
+  {
+    path: "/toy/details/:toyId",
+    component: toyDetails,
+  },
+  {
+    path: "/toy/edit/:toyId?",
+    component: toyEdit,
+  },
+];
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: "hash",
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

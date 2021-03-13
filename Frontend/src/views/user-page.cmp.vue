@@ -1,6 +1,7 @@
 <template>
-  <section class="user-profile" :style="myStyle">
-    <h2>Welcome {{ User.name }}</h2>
+  <section class="user-profile main-container" :style="myStyle">
+    <h2 v-if="User.name">Welcome {{ User.name }}</h2>
+    <h2 v-else>Welcome User</h2>
     <p>{{ User.gender }}</p>
     <p>{{ hours }}: {{ minutes }}</p>
     Pick an hour: <time-picker v-model="timePicked.hour" /> Pick a minute:
@@ -19,7 +20,7 @@ import timePicker from "../components/time-picker.cmp.vue";
 export default {
   data() {
     return {
-      User: { name: "Timmy", gender: "Male" },
+      User: { name: this.$store.getters.loggedinUser.fullname, gender: "Male" },
       timePicked: {
         hour: 18,
         minute: 23,

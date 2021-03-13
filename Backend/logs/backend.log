@@ -1,0 +1,268 @@
+3/12/2021, 2:02:02 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 2:02:10 PM - ERROR - Cannot get toys | {} (sid: FNazazB6y-5iPk1IpBuY06h1TjPyiQWN)
+3/12/2021, 2:02:56 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 2:03:24 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 2:45:34 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 2:45:47 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 2:51:54 PM - ERROR - Cannot get toy by id | {} (sid: spj2HEHFLE6k920AAffcQ_DqE5fR2DB4)
+3/12/2021, 2:53:09 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 3:41:11 PM - DEBUG - auth.service - signup with username: tiki, fullname: Tiki Nit (sid: y_SmO5psvonmolY7BF8s31Rls65Bfszb)
+3/12/2021, 3:41:11 PM - ERROR - Failed to signup Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds (sid: y_SmO5psvonmolY7BF8s31Rls65Bfszb)
+3/12/2021, 3:43:07 PM - DEBUG - auth.service - signup with username: tiki, fullname: Tiki Nit (sid: y_SmO5psvonmolY7BF8s31Rls65Bfszb)
+3/12/2021, 3:43:07 PM - DEBUG - auth.route - new account created: {"username":"tiki","password":"$2b$10$hWUHh1S0EuY0E7BUVz/GhOm4TBvMHNDA7iBjOFkp3mofuvBw7jKO2","fullname":"Tiki Nit","score":0,"_id":"604b6febf4d45f8a6c3315f3"} (sid: y_SmO5psvonmolY7BF8s31Rls65Bfszb)
+3/12/2021, 3:43:07 PM - DEBUG - auth.service - login with username: tiki (sid: y_SmO5psvonmolY7BF8s31Rls65Bfszb)
+3/12/2021, 3:52:15 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 3:53:25 PM - DEBUG - auth.service - signup with username: kyle, fullname: Cloe Cole (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:53:25 PM - DEBUG - auth.route - new account created: {"username":"kyle","password":"$2b$10$UrD7MVCZGvZO6YMgRxpxLu9zlthRkaQu0JthiYv4PO9u2AJgtDwIC","fullname":"Cloe Cole","score":0,"_id":"604b7255e196a38c8541a07c"} (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:53:25 PM - DEBUG - auth.service - login with username: kyle (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:54:02 PM - DEBUG - auth.service - login with username: truthy (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:54:02 PM - ERROR - Failed to Login Error: data and hash must be strings (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:54:10 PM - DEBUG - auth.service - login with username: truthy (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:54:10 PM - ERROR - Failed to Login Error: data and hash must be strings (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:54:11 PM - DEBUG - auth.service - login with username: truthy (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:54:11 PM - ERROR - Failed to Login Error: data and hash must be strings (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:54:59 PM - DEBUG - auth.service - login with username: truthy (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:54:59 PM - ERROR - Failed to Login Error: data and hash must be strings (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:55:00 PM - DEBUG - auth.service - login with username: truthy (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:55:00 PM - ERROR - Failed to Login Error: data and hash must be strings (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 3:55:29 PM - DEBUG - auth.service - login with username: kyle (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 4:02:13 PM - DEBUG - auth.service - login with username: maddy (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 4:02:13 PM - ERROR - Failed to Login Invalid username or password (sid: _jgtvhPXF2n49S9fjHr0Qucd3XOyugXV)
+3/12/2021, 4:03:13 PM - DEBUG - auth.service - login with username: maddy (sid: xeaanfIMMA_sbRsX-XLusAVXrFAqYeu9)
+3/12/2021, 4:03:13 PM - ERROR - Failed to Login Invalid username or password (sid: xeaanfIMMA_sbRsX-XLusAVXrFAqYeu9)
+3/12/2021, 4:04:16 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 4:04:20 PM - DEBUG - auth.service - login with username: maddy (sid: h-t_PFeAhl8ORrpRkAF8zwEesA3eZPkW)
+3/12/2021, 4:04:20 PM - ERROR - Failed to Login Invalid username or password (sid: h-t_PFeAhl8ORrpRkAF8zwEesA3eZPkW)
+3/12/2021, 4:05:21 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:13:14 PM - DEBUG - auth.service - login with username: maddy (sid: QuhFviHzxNLZ5sznfJyLa6NWbc-zcOHi)
+3/12/2021, 5:13:14 PM - ERROR - Failed to Login Invalid username or password (sid: QuhFviHzxNLZ5sznfJyLa6NWbc-zcOHi)
+3/12/2021, 5:13:26 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:15:42 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:17:05 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:22:20 PM - DEBUG - auth.service - signup with username: kyle, fullname: Cloe Cole (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:22:20 PM - DEBUG - auth.route - new account created: {"username":"kyle","password":"$2b$10$J2R760F2wpp1lJLW3eFU1eqKwWLBpZWozuqwyOzigMCJMqUC36ZWu","fullname":"Cloe Cole","isAdmin":false,"score":0,"_id":"604b872ce599de8ddc9d18a4"} (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:22:20 PM - DEBUG - auth.service - login with username: kyle (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:22:50 PM - DEBUG - auth.service - signup with username: kenn, fullname: Kenny McCormick (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:22:50 PM - DEBUG - auth.route - new account created: {"username":"kenn","password":"$2b$10$3nYi1bpR/4zXwmOmYDCIxu4z5sBAfiYPFMwSaRNV1fclDOloak81q","fullname":"Kenny McCormick","isAdmin":false,"score":0,"_id":"604b874ae599de8ddc9d18a5"} (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:22:50 PM - DEBUG - auth.service - login with username: kenn (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:23:25 PM - DEBUG - auth.service - signup with username: timmy, fullname: Timmy Saunders (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:23:25 PM - DEBUG - auth.route - new account created: {"username":"timmy","password":"$2b$10$CzJZqZqy/X3VM5QJuep1eubTmlsZQV47KGu5E6oMP6zf2lDu97U8S","fullname":"Timmy Saunders","isAdmin":false,"score":0,"_id":"604b876de599de8ddc9d18a6"} (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:23:25 PM - DEBUG - auth.service - login with username: timmy (sid: a0Np15X6I3ZTDToxZXFEir13YsldW4uV)
+3/12/2021, 5:24:25 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:24:58 PM - DEBUG - auth.service - signup with username: max, fullname: Latuce Max (sid: LbfQAcmkkQekagnCm2jKqUxT7wWTs2nP)
+3/12/2021, 5:24:58 PM - DEBUG - auth.route - new account created: {"username":"max","password":"$2b$10$KkeyvU7aHfo.PSDBrRg3CuxgmTFh8CPtFL7hwuUE70vG7jNKqRlk.","fullname":"Latuce Max","isAdmin":false,"score":0,"_id":"604b87cacbe9f48e0b48d035"} (sid: LbfQAcmkkQekagnCm2jKqUxT7wWTs2nP)
+3/12/2021, 5:24:58 PM - DEBUG - auth.service - login with username: max (sid: LbfQAcmkkQekagnCm2jKqUxT7wWTs2nP)
+3/12/2021, 5:39:11 PM - DEBUG - auth.service - signup with username: maxine, fullname: Nanne Max (sid: LbfQAcmkkQekagnCm2jKqUxT7wWTs2nP)
+3/12/2021, 5:39:11 PM - DEBUG - auth.route - new account created: {"username":"maxine","password":"$2b$10$3l9W7KECVRLbj4YP.9sP/.U9s9TVGaUv4nH7Nw.2iB0Ggaws1XxP.","fullname":"Nanne Max","isAdmin":false,"score":0,"_id":"604b8b1fcbe9f48e0b48d036"} (sid: LbfQAcmkkQekagnCm2jKqUxT7wWTs2nP)
+3/12/2021, 5:39:11 PM - DEBUG - auth.service - login with username: maxine (sid: LbfQAcmkkQekagnCm2jKqUxT7wWTs2nP)
+3/12/2021, 5:40:46 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:41:15 PM - DEBUG - auth.service - signup with username: tames, fullname: Fanny Tran (sid: W3TMN1jxnYL9KSz9KPr8u3gginxLyzRy)
+3/12/2021, 5:41:15 PM - DEBUG - auth.route - new account created: {"username":"tames","password":"$2b$10$qdV4UwJEp2HAumTIAUzUAuZgV9yByWePzjiJmvhvvLxx7wWGJjgU6","fullname":"Fanny Tran","isAdmin":false,"score":0,"_id":"604b8b9b35ff668e48fc6c7f"} (sid: W3TMN1jxnYL9KSz9KPr8u3gginxLyzRy)
+3/12/2021, 5:41:15 PM - DEBUG - auth.service - login with username: tames (sid: W3TMN1jxnYL9KSz9KPr8u3gginxLyzRy)
+3/12/2021, 5:41:42 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:41:55 PM - ERROR - Failed to signup ReferenceError: isAdmin is not defined (sid: T89JOkxCwpWF7SRQ7yogwflc_l4i771q)
+3/12/2021, 5:42:23 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:42:39 PM - DEBUG - auth.service - signup with username: tamsssesss, fullname: Fannyddsss Tran (sid: uP_HG5nFsLn24y_n0damjHiE88uFXxdT)
+3/12/2021, 5:42:39 PM - DEBUG - auth.route - new account created: {"username":"tamsssesss","password":"$2b$10$sdrZNHdcpWLVkId857TgtOKFghpyEYlguK6nQaOY5c.mNjDnYwSSe","fullname":"Fannyddsss Tran","isAdmin":false,"score":0,"_id":"604b8befb594cd8e7cdb046b"} (sid: uP_HG5nFsLn24y_n0damjHiE88uFXxdT)
+3/12/2021, 5:42:39 PM - DEBUG - auth.service - login with username: tamsssesss (sid: uP_HG5nFsLn24y_n0damjHiE88uFXxdT)
+3/12/2021, 5:49:38 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:49:40 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:50:16 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:50:37 PM - DEBUG - auth.service - signup with username: danii, fullname: Fann Den (sid: xRElo90ZX8fVNSMzKZ3kzy0nnhURy2vO)
+3/12/2021, 5:50:37 PM - DEBUG - auth.route - new account created: {"username":"danii","password":"$2b$10$tuQVlg1N6JrnS7xq3mydYuH5iCFBOaS/OvoWjjkafLhzJ9eJFmrY2","fullname":"Fann Den","isAdmin":false,"score":0,"_id":"604b8dcd92b2898ed06c3ada"} (sid: xRElo90ZX8fVNSMzKZ3kzy0nnhURy2vO)
+3/12/2021, 5:50:37 PM - DEBUG - auth.service - login with username: danii (sid: xRElo90ZX8fVNSMzKZ3kzy0nnhURy2vO)
+3/12/2021, 5:51:16 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:53:52 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:54:09 PM - DEBUG - auth.service - signup with username: dangon, fullname: Fannss Den (sid: xI-xY1pOyp3UhDdxYzjOGvGaKOk2gAHw)
+3/12/2021, 5:54:09 PM - DEBUG - auth.route - new account created: {"username":"dangon","password":"$2b$10$ZQyyKn3NTvPX/vwlJidQkO97.rAuY5KfFv.byHCQKTUj9bEd2zNTS","fullname":"Fannss Den","isAdmin":true,"score":0,"_id":"604b8ea1dc403f8f01e7d604"} (sid: xI-xY1pOyp3UhDdxYzjOGvGaKOk2gAHw)
+3/12/2021, 5:54:09 PM - DEBUG - auth.service - login with username: dangon (sid: xI-xY1pOyp3UhDdxYzjOGvGaKOk2gAHw)
+3/12/2021, 5:54:46 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:54:52 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:55:05 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 5:55:27 PM - DEBUG - auth.service - signup with username: gleb, fullname: Gabo Mate (sid: CGlTyaSsbC1YImUcX1Myc7pmc1gOU9SM)
+3/12/2021, 5:55:28 PM - DEBUG - auth.route - new account created: {"username":"gleb","password":"$2b$10$YDjpRRdu6Oe2Am547PHOS.tnRjKd3so0fT44S.5zHMWY0i.F.ypMO","fullname":"Gabo Mate","isAdmin":false,"score":0,"_id":"604b8ef03279598f3d7988c9"} (sid: CGlTyaSsbC1YImUcX1Myc7pmc1gOU9SM)
+3/12/2021, 5:55:28 PM - DEBUG - auth.service - login with username: gleb (sid: CGlTyaSsbC1YImUcX1Myc7pmc1gOU9SM)
+3/12/2021, 5:56:01 PM - DEBUG - auth.service - login with username: dangon (sid: CGlTyaSsbC1YImUcX1Myc7pmc1gOU9SM)
+3/12/2021, 6:04:59 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:08:40 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:09:38 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:11:31 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:12:38 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:19:12 PM - DEBUG - auth.service - login with username: dangon (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:19:18 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:19:23 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:20:39 PM - DEBUG - auth.service - login with username: dangon (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:21:07 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:21:21 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:22:17 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:22:26 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:23:16 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:23:25 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:24:43 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:24:49 PM - INFO - Req from: Fannss Den (sid: HWSX2bfY2eBwE3P9OF8DB96TGrV68luy)
+3/12/2021, 6:26:34 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:27:18 PM - DEBUG - auth.service - login with username: dangon (sid: aX4xt-vabjWNHGQJgY6SuMK1J0oHBKcT)
+3/12/2021, 6:27:23 PM - INFO - Req from: Fannss Den (sid: aX4xt-vabjWNHGQJgY6SuMK1J0oHBKcT)
+3/12/2021, 6:28:57 PM - INFO - Req from: Fannss Den (sid: aX4xt-vabjWNHGQJgY6SuMK1J0oHBKcT)
+3/12/2021, 6:29:08 PM - INFO - Req from: Fannss Den (sid: aX4xt-vabjWNHGQJgY6SuMK1J0oHBKcT)
+3/12/2021, 6:29:11 PM - INFO - Req from: Fannss Den (sid: aX4xt-vabjWNHGQJgY6SuMK1J0oHBKcT)
+3/12/2021, 6:30:34 PM - INFO - Req from: Fannss Den (sid: aX4xt-vabjWNHGQJgY6SuMK1J0oHBKcT)
+3/12/2021, 6:30:40 PM - INFO - Req from: Fannss Den (sid: aX4xt-vabjWNHGQJgY6SuMK1J0oHBKcT)
+3/12/2021, 6:30:50 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:31:07 PM - DEBUG - auth.service - login with username: dangon (sid: 92FaLSRZ9UoSRDRkorP8-rSNY9rl_B83)
+3/12/2021, 6:31:11 PM - INFO - Req from: Fannss Den (sid: 92FaLSRZ9UoSRDRkorP8-rSNY9rl_B83)
+3/12/2021, 6:31:16 PM - INFO - Req from: Fannss Den (sid: 92FaLSRZ9UoSRDRkorP8-rSNY9rl_B83)
+3/12/2021, 6:31:54 PM - INFO - Req from: Fannss Den (sid: 92FaLSRZ9UoSRDRkorP8-rSNY9rl_B83)
+3/12/2021, 6:32:09 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:46:31 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:49:56 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 6:56:39 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:33:14 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:34:04 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:34:38 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:35:14 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:35:15 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:35:24 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:37:42 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:38:50 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:39:05 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:43:19 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:43:32 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:43:58 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:44:02 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:46:32 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:46:58 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:50:12 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:53:01 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:53:22 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:53:29 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 7:54:41 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 8:08:32 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 8:09:30 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 8:10:15 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 8:10:36 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/12/2021, 8:27:38 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 11:09:15 AM - DEBUG - auth.service - login with username: dangon (sid: FQ9njiLyLTCBdx0nEq10E-IZSBB1-1a6)
+3/13/2021, 11:15:22 AM - DEBUG - auth.service - login with username: aaa (sid: y1Cgw03i-gZnl0-xMhkvinraXp-ptr4R)
+3/13/2021, 11:15:22 AM - ERROR - Failed to Login Invalid username or password (sid: y1Cgw03i-gZnl0-xMhkvinraXp-ptr4R)
+3/13/2021, 11:15:34 AM - DEBUG - auth.service - login with username: aaa (sid: H3qNFKa-YYIehJToV3UC73UAK6aeKcAY)
+3/13/2021, 11:15:34 AM - ERROR - Failed to Login Invalid username or password (sid: H3qNFKa-YYIehJToV3UC73UAK6aeKcAY)
+3/13/2021, 11:20:15 AM - DEBUG - auth.service - login with username: dangon (sid: r1HjpOXLbeKZpRBtHbQ4qza2JHNnnh0S)
+3/13/2021, 11:22:51 AM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 11:29:15 AM - DEBUG - auth.service - login with username: dangon (sid: 91OVjbvBnbQolIY6ng6-PbGKVSOrTRVc)
+3/13/2021, 11:34:19 AM - DEBUG - auth.service - login with username: dangon (sid: _r54dLiiaUAIV3k4hguJwyZEyjeDyUY2)
+3/13/2021, 11:36:30 AM - DEBUG - auth.service - login with username: dangon (sid: qYiXVJ_Q6qa-yuHuIrgsciJseQqMovk2)
+3/13/2021, 11:42:04 AM - DEBUG - auth.service - login with username: dangon (sid: XT4I1JW_a_Df3UqACOZwcDucqUR8aa4W)
+3/13/2021, 11:42:23 AM - INFO - Req from: Fannss Den (sid: XT4I1JW_a_Df3UqACOZwcDucqUR8aa4W)
+3/13/2021, 11:42:23 AM - ERROR - Cannot get toys | {} (sid: XT4I1JW_a_Df3UqACOZwcDucqUR8aa4W)
+3/13/2021, 11:42:27 AM - INFO - Req from: Fannss Den (sid: XT4I1JW_a_Df3UqACOZwcDucqUR8aa4W)
+3/13/2021, 11:42:27 AM - ERROR - Cannot get toys | {} (sid: XT4I1JW_a_Df3UqACOZwcDucqUR8aa4W)
+3/13/2021, 11:47:11 AM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 11:47:15 AM - DEBUG - auth.service - login with username: dangon (sid: Q1rRUSCrqgdBpwB9ui8JQ8ah045fKCAx)
+3/13/2021, 11:47:27 AM - ERROR - Cannot get toys | {} (sid: a6YFYDjk_AdvYmv2q152r5kSQHgl9EmC)
+3/13/2021, 11:47:58 AM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 11:48:13 AM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 11:48:17 AM - ERROR - Cannot get toys | {} (sid: s_FryD7zx9kDEwcfTfeYdQj3DWndqr9L)
+3/13/2021, 11:49:19 AM - ERROR - Cannot get toys | {} (sid: s_FryD7zx9kDEwcfTfeYdQj3DWndqr9L)
+3/13/2021, 11:49:32 AM - ERROR - Cannot get toys | {} (sid: s_FryD7zx9kDEwcfTfeYdQj3DWndqr9L)
+3/13/2021, 11:49:33 AM - ERROR - Cannot get toys | {} (sid: s_FryD7zx9kDEwcfTfeYdQj3DWndqr9L)
+3/13/2021, 11:49:34 AM - ERROR - Cannot get toys | {} (sid: s_FryD7zx9kDEwcfTfeYdQj3DWndqr9L)
+3/13/2021, 11:52:13 AM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 11:55:42 AM - ERROR - Cannot get toys | {} (sid: 0uergqXSw_Kc9oQbAVvpklFxdcdGv8kI)
+3/13/2021, 11:57:55 AM - ERROR - Cannot get toys | {} (sid: 0uergqXSw_Kc9oQbAVvpklFxdcdGv8kI)
+3/13/2021, 11:57:56 AM - ERROR - Cannot get toys | {} (sid: 0uergqXSw_Kc9oQbAVvpklFxdcdGv8kI)
+3/13/2021, 11:57:57 AM - ERROR - Cannot get toys | {} (sid: 0uergqXSw_Kc9oQbAVvpklFxdcdGv8kI)
+3/13/2021, 11:58:33 AM - ERROR - Cannot get toys | {} (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 11:59:12 AM - DEBUG - auth.service - login with username: dangon (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 12:00:50 PM - INFO - Req from: Fannss Den (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 12:00:50 PM - ERROR - Cannot get toys | {} (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 12:00:54 PM - INFO - Req from: Fannss Den (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 12:01:24 PM - INFO - Req from: Fannss Den (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 12:01:25 PM - INFO - Req from: Fannss Den (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 12:01:34 PM - INFO - Req from: Fannss Den (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 12:01:52 PM - INFO - Req from: Fannss Den (sid: X3eYoyyd84qYdZEH3XVgcJZN-zXDmGsl)
+3/13/2021, 12:02:32 PM - DEBUG - auth.service - login with username: dangon (sid: 38xMTlzNv42fWcFDc8NiRl2UCmo4uKxs)
+3/13/2021, 12:04:49 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 12:04:56 PM - ERROR - Cannot get toys | {} (sid: 5eQyi3Ookw3mm2n4eFutq7ViNJh-Ev0x)
+3/13/2021, 12:04:57 PM - ERROR - Cannot get toys | {} (sid: 5eQyi3Ookw3mm2n4eFutq7ViNJh-Ev0x)
+3/13/2021, 12:05:59 PM - ERROR - Cannot get toys | {} (sid: 5eQyi3Ookw3mm2n4eFutq7ViNJh-Ev0x)
+3/13/2021, 12:06:34 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 12:06:50 PM - ERROR - Cannot get toys | {} (sid: ett5h8u4DyQOqlhu4JCiN9vaoQAodagx)
+3/13/2021, 12:10:10 PM - DEBUG - auth.service - login with username: dangon (sid: ett5h8u4DyQOqlhu4JCiN9vaoQAodagx)
+3/13/2021, 12:10:24 PM - INFO - Req from: Fannss Den (sid: ett5h8u4DyQOqlhu4JCiN9vaoQAodagx)
+3/13/2021, 12:11:58 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 12:12:08 PM - DEBUG - auth.service - login with username: dango  (sid: VlguY67otS-IbPXjRqPzBMMaMWtoUP7M)
+3/13/2021, 12:12:08 PM - ERROR - Failed to Login Invalid username or password (sid: VlguY67otS-IbPXjRqPzBMMaMWtoUP7M)
+3/13/2021, 12:12:22 PM - DEBUG - auth.service - login with username: dangon (sid: Elba3sBpfEn_qcw2Gahg3gYdqYJey8Mp)
+3/13/2021, 1:52:41 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 1:52:59 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 1:55:47 PM - DEBUG - auth.service - login with username: dandango (sid: aKxQJkNcNIGIyc_8-Ol_gdjEiHKDw7hw)
+3/13/2021, 1:55:47 PM - ERROR - Failed to Login Invalid username or password (sid: aKxQJkNcNIGIyc_8-Ol_gdjEiHKDw7hw)
+3/13/2021, 1:57:20 PM - DEBUG - auth.service - login with username: dangon (sid: othtV7OJrAWOKejTqrRgilnKNzdICpc8)
+3/13/2021, 1:58:35 PM - DEBUG - auth.service - login with username: dangon (sid: sYjv-SZvwKC483Cq6J8rcFgjq0q_Yze6)
+3/13/2021, 1:59:30 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:01:49 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:02:05 PM - DEBUG - auth.service - login with username: dangon (sid: M10qwOvBdijfD9RAW9HR4MSBaHvcARe7)
+3/13/2021, 2:02:35 PM - DEBUG - auth.service - login with username: dangon (sid: SWIanndeBIx6BIIePOdYvhqlUi7ZepjE)
+3/13/2021, 2:03:46 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:04:05 PM - DEBUG - auth.service - login with username: dangon (sid: CGl48AVN1MEubzRp9sM74SV30BLz_vdg)
+3/13/2021, 2:04:38 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:05:49 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:34:47 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:37:53 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:37:57 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:38:10 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:39:43 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:42:23 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:43:01 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:45:02 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:45:16 PM - DEBUG - auth.service - login with username: dangon (sid: -RBvQ3JrT_BPesbLFn09DO8eRG1lL9VM)
+3/13/2021, 2:48:44 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:48:47 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:49:19 PM - DEBUG - auth.service - login with username: dangon (sid: EE5dZu95Yo8C2aWlirlJLkj0wFhdzAAK)
+3/13/2021, 2:50:28 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:51:42 PM - DEBUG - auth.service - login with username: dangon (sid: qZ8lgWM6b7jQ0Yh0ZrIK3W6bm4TFAiON)
+3/13/2021, 2:53:02 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 2:53:33 PM - DEBUG - auth.service - login with username: dangon (sid: GrXTM2P6X3yrdBAEN2hshGE8U-wqrm7M)
+3/13/2021, 2:54:07 PM - DEBUG - auth.service - login with username: dangon (sid: gzI4qrUSxyekQMzKeMpLgFKoiCKyY87v)
+3/13/2021, 2:55:34 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 3:09:01 PM - INFO - Server is running on port: 3030 | 15 | popo 
+3/13/2021, 3:09:30 PM - DEBUG - auth.service - login with username: dangon (sid: ssokiPKu82_40wdUFMZTEOX-oIdHwFoU)
+3/13/2021, 3:09:30 PM - INFO - Req from: Fannss Den (sid: ssokiPKu82_40wdUFMZTEOX-oIdHwFoU)
+3/13/2021, 3:09:34 PM - INFO - Req from: Fannss Den (sid: ssokiPKu82_40wdUFMZTEOX-oIdHwFoU)
+3/13/2021, 3:09:41 PM - INFO - Req from: Fannss Den (sid: ssokiPKu82_40wdUFMZTEOX-oIdHwFoU)
+3/13/2021, 3:09:45 PM - INFO - Req from: Fannss Den (sid: ssokiPKu82_40wdUFMZTEOX-oIdHwFoU)
+3/13/2021, 3:09:45 PM - INFO - Req from: Fannss Den (sid: ssokiPKu82_40wdUFMZTEOX-oIdHwFoU)
+3/13/2021, 3:09:50 PM - INFO - Req from: Fannss Den (sid: ssokiPKu82_40wdUFMZTEOX-oIdHwFoU)
+3/13/2021, 3:12:54 PM - DEBUG - auth.service - login with username: ss (sid: lYMFlXzSUKRMdnAvUEBtmbv2db4UW8cB)
+3/13/2021, 3:12:54 PM - ERROR - Failed to Login Invalid username or password (sid: lYMFlXzSUKRMdnAvUEBtmbv2db4UW8cB)
+3/13/2021, 3:13:56 PM - DEBUG - auth.service - login with username: timmy (sid: lYMFlXzSUKRMdnAvUEBtmbv2db4UW8cB)
+3/13/2021, 3:13:56 PM - INFO - Req from: Timmy Saunders (sid: lYMFlXzSUKRMdnAvUEBtmbv2db4UW8cB)
+3/13/2021, 3:14:00 PM - INFO - Req from: Timmy Saunders (sid: lYMFlXzSUKRMdnAvUEBtmbv2db4UW8cB)
+3/13/2021, 3:14:00 PM - WARN - Timmy Saunders Attempt to perform admin action (sid: lYMFlXzSUKRMdnAvUEBtmbv2db4UW8cB)
+3/13/2021, 3:14:05 PM - INFO - Req from: Timmy Saunders (sid: lYMFlXzSUKRMdnAvUEBtmbv2db4UW8cB)
+3/13/2021, 3:14:05 PM - WARN - Timmy Saunders Attempt to perform admin action (sid: lYMFlXzSUKRMdnAvUEBtmbv2db4UW8cB)
+3/13/2021, 3:14:37 PM - DEBUG - auth.service - login with username: dangon (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:14:37 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:14:56 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:14:56 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:14:59 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:15:03 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:15:03 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:31:06 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:33:11 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:33:23 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:33:32 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 3:34:07 PM - INFO - Req from: Fannss Den (sid: uyUUoGG3G5Bq9DNookHmY61ZIb81U36H)
+3/13/2021, 4:27:20 PM - DEBUG - auth.service - login with username: dango (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:27:20 PM - ERROR - Failed to Login Invalid username or password (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:27:29 PM - DEBUG - auth.service - login with username: dangon (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:27:29 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:27:40 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:27:55 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:27:59 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:27:59 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:29:03 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:41:19 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:41:43 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)
+3/13/2021, 4:41:44 PM - INFO - Req from: Fannss Den (sid: TQn9ajpHxpNKPKhFWpjSAlTK5rUrX8YI)

@@ -1,6 +1,8 @@
 import Vue from "vue";
 import Vuex from "vuex";
+import {userStore} from "./user-store"
 import { toyService } from "../services/toy.service.js";
+
 
 Vue.use(Vuex);
 
@@ -9,7 +11,7 @@ export default new Vuex.Store({
     toys: [],
     toyForDisplay: null,
     filterBy: { name: "", inStock: "all", type: "all" },
-    sortBy: {sortType:"name"}
+    sortBy: { sortType: "name" },
   },
   getters: {
     toys(state) {
@@ -85,5 +87,7 @@ export default new Vuex.Store({
       context.dispatch("loadToys");
     },
   },
-  modules: {},
+  modules: {
+    userStore,
+  },
 });

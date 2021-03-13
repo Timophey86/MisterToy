@@ -1,119 +1,113 @@
-const gToys = require("../../data/toy.json");
+const dbService = require('../../services/db.service')
+const ObjectId = require('mongodb').ObjectId
+
+
+async function query(filterBy) {
+
+    console.log('trying to get toys')
+    const criteria = _buildCriteria(filterBy);
+    
+    try{
+        const collection = await dbService.getCollection('toys') //bring the collection
+        var toys = await collection.find(criteria).toArray()
+        // console.log(toys, 'service')
+        return toys
+
+        // const regex = new RegExp(filterBy.name, 'i')
+        // var toysForDisplay = gToy.filter(toy => {
+        //       return regex.test(toy.name) && (toy.type === filterBy.type || filterBy.type === 'all')
+        //             && (JSON.stringify(toy.inStock) === filterBy.inStock || filterBy.inStock === 'all')  
+    }
+    catch(err){
+        logger.error('cannot find toys', err)
+        throw err
+    }
+}
+
+async function getById (id){
+    try{
+        const collection = await dbService.getCollection('toys') //bring the collection
+        const toy = await collection.findOne({"_id":ObjectId(id)})
+        return toy
+    }
+    catch(err){
+        logger.error('cannot find toy by id', err)
+        throw err
+    }
+}
+
+async function remove (id){
+    try{
+        const collection = await dbService.getCollection('toys') //bring the collection
+        const query = { _id: ObjectId(id) }
+        await collection.deleteOne(query)
+    }
+    catch (err) {
+        logger.error(`cannot remove toy ${toyId}`, err)
+        throw err
+    }
+}
+
+async function add(toy){
+    try{
+        const collection = await dbService.getCollection('toys') //bring the collection
+        await collection.insertOne(toy)
+        return toy
+
+        
+    }
+    catch(err){
+        logger.error('cannot insert toy', err)
+        throw err
+    }
+
+}
+
+async function update (toy){
+    try{
+        const collection = await dbService.getCollection('toys') //bring the collection
+        const toyToAdd = {
+            name: toy.name,
+            price: toy.price,
+            type: toy.type,
+            inStock:toy.inStock
+        }
+            await collection.updateOne({"_id":ObjectId(toy._id)}, {$set:toyToAdd})
+            return toy
+        }
+        catch(err){
+            logger.error('cannot insert toy', err)
+            throw err
+    }
+}
+
+
+function _buildCriteria(filterBy) {
+    const criteria = {}
+    if (filterBy.name) {
+        const txtCriteria = { $regex: filterBy.name, $options: 'i' }
+        criteria.name =txtCriteria
+    }
+    if (filterBy.type !== 'all') {
+        criteria.type = filterBy.type
+    }
+    if(filterBy.inStock !=='all'){
+        
+        criteria.inStock = JSON.parse(filterBy.inStock)
+    }
+    return criteria
+}
+
+
+
+
 
 module.exports = {
   query,
   getById,
   remove,
-  save,
-};
-
-/* Get List Of toys */
-function query(filterBy) {
-  // filter name, type and stock
-  // const regex = new RegExp(filterBy.name, 'i')
-  // var toysForDisplay = gToys.filter(toy => {
-  //       return regex.test(toy.name) && toy.type === filterBy.typeFilter || filterBy.typeFilter === 'all'
-  //             && JSON.stringify(toy.inStock) === filterBy.stockFilter || filterBy.stockFilter === 'all'
-  // })
-
-  var gFilterBy = JSON.parse(filterBy.filter);
-  var gSortBy = JSON.parse(filterBy.sort);
-
-  var toysToReturn = gToys.filter((toy) => {
-    if (gFilterBy.inStock !== "all" && gFilterBy.type !== "all") {
-      console.log("gfilter ", gFilterBy.type);
-      console.log("gfilter ", gFilterBy.inStock);
-      console.log("toy ", toy.type);
-      console.log("toy ", toy.inStock);
-      return (
-        toy.name.toLowerCase().includes(gFilterBy.name.toLowerCase()) &&
-        toy.inStock === gFilterBy.inStock &&
-        toy.type === gFilterBy.type
-      );
-    } else if (gFilterBy.inStock !== "all" || gFilterBy.type !== "all") {
-      if (gFilterBy.inStock !== "all") {
-        return (
-          toy.name.toLowerCase().includes(gFilterBy.name.toLowerCase()) &&
-          toy.inStock === gFilterBy.inStock
-        );
-      }
-      if (gFilterBy.type !== "all") {
-        return (
-          toy.name.toLowerCase().includes(gFilterBy.name.toLowerCase()) &&
-          toy.type === gFilterBy.type
-        );
-      }
-    } else {
-      return toy.name.toLowerCase().includes(gFilterBy.name.toLowerCase());
-    }
-  });
-
-  if (gSortBy.sortType === "name") {
-    toysToReturn.sort((a, b) => {
-      var nameA = a.name.toUpperCase();
-      var nameB = b.name.toUpperCase();
-      if (nameA < nameB) {
-        return -1;
-      }
-      if (nameA > nameB) {
-        return 1;
-      }
-      return 0;
-    });
-  } else {
-    toysToReturn.sort((a, b) => {
-      return a.price - b.price;
-    });
-  }
-
-  return Promise.resolve(toysToReturn);
+  add,
+  update
 }
 
-/* Get toy By Id */
-function getById(toyId) {
-  const currToy = gToys.find((toy) => toy._id === toyId);
-  return Promise.resolve(currToy);
-}
 
-/* Remove toy */
-function remove(toyId) {
-  const idx = gToys.findIndex((toy) => toy._id === toyId);
-  gToys.splice(idx, 1);
-  return _saveToysToFile();
-}
-
-/* Add / update toy */
-function save(toy) {
-  if (toy._id) {
-    const idx = gToys.findIndex((t) => t._id === toy._id);
-    if (idx < 0) return Promise.reject("No such toy", toy._id);
-    gToys.splice(idx, 1, toy);
-  } else {
-    toy._id = _makeId();
-    toy.createdAt = new Date();
-    gToys.unshift(toy);
-  }
-  return _saveToysToFile().then(() => toy);
-}
-
-//update toys DB
-function _saveToysToFile() {
-  return new Promise((resolve, reject) => {
-    const fs = require("fs");
-    fs.writeFile("data/toy.json", JSON.stringify(gToys, null, 2), (err) => {
-      if (err) reject(err);
-      else resolve();
-    });
-  });
-}
-
-//utils make id
-function _makeId(length = 5) {
-  var txt = "";
-  var possible =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-  for (var i = 0; i < length; i++) {
-    txt += possible.charAt(Math.floor(Math.random() * possible.length));
-  }
-  return txt;
-}

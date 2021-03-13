@@ -3,13 +3,23 @@
 @import "./cmps/toy-list.css";
 @import "./pages/toy-details.css";
 @import "./cmps/pop-up.css";
+@import "./pages/signup-login.css";
 
 body {
     background-color: lightblue;
     margin: 0;
 }
+
+.filter {
+    width: 50%;
+}
+
 form.filter{
     margin:15px 0px;
+}
+
+form label {
+    margin-right: 5px;
 }
 
 .filter-sort-container {
@@ -22,8 +32,20 @@ form.filter{
     margin: 15px 0;
 }
 
+
 .home h2{
     text-align: center;
+}
+
+.home .img {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.home img {
+    height: 50%;
+    width: 50%;
 }
 
 .welcome {
